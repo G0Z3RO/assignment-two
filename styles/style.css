@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.quick-sand-font {
+  font-family: 'Quicksand', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared style */
+
+.orange {
+  color: #fea301;
+}
+.bg {
+  background-image: url(../images/bg.png);
+}
+
+/* nav style */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+#three-line,
+#hidden {
+  display: none;
+}
+.school-logo-items {
+  display: flex;
+}
+.logo-title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-left: 15px;
+  margin-top: 17px;
+}
+#menu-items {
+  display: flex;
+  gap: 32px;
+  text-decoration: none;
+  margin-bottom: 9px;
+}
+.menu-link-1 {
+  color: #fea301;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+.menu-link-2 {
+  color: #01acfd;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.15rem;
+}
+.menu-link-3 {
+  color: #05d4df;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.15rem;
+}
+.menu-link-4 {
+  color: #5d58ef;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.15rem;
+}
+.menu-btn-top {
+  background-color: #fea301;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #ffffff;
+  border: none;
+}
+
+/* banner style */
+.banner {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  gap: 72px;
+}
+.banner-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.banner-description {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.enroll-btn {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #111111;
+  border-radius: 12px;
+  border: none;
+}
+/* curriculum style */
+
+.curriculums {
+  justify-items: center;
+}
+.curriculum-title {
+  font-size: 2.85rem;
+  font-weight: 600;
+  padding: 30px;
+  margin-bottom: 70px;
+}
+.curriculum-container {
+  display: flex;
+  max-width: 1200px;
+  justify-items: center;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+.kinder {
+  width: 300px;
+  height: 380px;
+  box-shadow: 0 4px 10px 0px rgba(222, 245, 255, 1);
+  justify-items: center;
+  text-align: center;
+  padding: 40px;
+  border-radius: 19px;
+  background: linear-gradient(360deg, white, #def5ff);
+}
+.kinder-image {
+  margin-bottom: 32px;
+}
+.kinder-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.kinder-description {
+  font-family: Raleway;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #808080;
+  margin-bottom: 35px;
+}
+.btn-kinder {
+  color: #64c8ff;
+  background-color: #ffffff;
+  border: none;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.btn-elementary {
+  color: #f0aa00;
+  background-color: #ffffff;
+  border: none;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.btn-middle {
+  color: #8700ff;
+  background-color: #ffffff;
+  border: none;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.elementary {
+  width: 300px;
+  height: 380px;
+  box-shadow: 0 4px 10px 0px rgba(255, 244, 220, 1);
+  justify-items: center;
+  text-align: center;
+  padding: 40px;
+  border-radius: 19px;
+  background: linear-gradient(360deg, white, #fff4dc);
+}
+.middle {
+  width: 300px;
+  height: 380px;
+  box-shadow: 0 4px 10px 0px rgba(242, 232, 255, 1);
+  justify-items: center;
+  text-align: center;
+  padding: 40px;
+  border-radius: 19px;
+  background: linear-gradient(360deg, white, #f2e8ff);
+}
+.btn-next-previous {
+  padding-bottom: 50px;
+}
+.previous {
+  background-color: #fea301;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 16.5px 22.5px;
+  margin-right: 10px;
+}
+.next {
+  background-color: #fea301;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 17px 22px;
+  margin-left: 10px;
+}
+
+/* sorties style */
+.our-stories {
+  justify-items: center;
+  background: url(../images/bg.png),
+    linear-gradient(180deg, white, rgba(254, 163, 1, 0.3));
+}
+.our-stories-title {
+  font-size: 2.85rem;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.stories-container {
+  display: flex;
+  max-width: 1200px;
+  justify-items: center;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+.story-one .images-story-one {
+  width: 500px;
+}
+.images-story-one,
+.grid-img {
+  border-radius: 16px 16px 0px 0px;
+}
+.story-one {
+  width: 500px;
+  height: 600px;
+  border-radius: 16px;
+  background-color: white;
+}
+.story-one .btn-story-one {
+  background-color: #3cd8e8;
+  color: #ffffff;
+  padding: 15px 19px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 45px;
+  margin-left: 30px;
+  position: relative;
+  top: -30px;
+}
+.story-one-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 5px;
+  padding-left: 30px;
+}
+.story-one-description {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 28px;
+  padding-left: 30px;
+}
+
+.story-two {
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18.5px;
+}
+.img-one {
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+.grid-btn-one {
+  background-color: #95b226;
+  color: #ffffff;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 45px;
+  position: relative;
+  top: -20px;
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.grid-description {
+  margin: 5px 30px 10px 30px;
+}
+
+.img-two {
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+.grid-btn-two {
+  background-color: #5d58f0;
+  color: #ffffff;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 45px;
+  position: relative;
+  top: -20px;
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.img-three {
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+.grid-btn-three {
+  background-color: orange;
+  color: #ffffff;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 45px;
+  position: relative;
+  top: -20px;
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.img-four {
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+.grid-btn-four {
+  background-color: grey;
+  color: #ffffff;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 45px;
+  position: relative;
+  top: -20px;
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.stories-btn {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 13px 40px;
+  color: #ffffff;
+  background-color: #111111;
+  border-radius: 12px;
+  border: none;
+  margin-bottom: 50px;
+}
+
+/* footer style */
+.blue-bg {
+  background-color: #889e73;
+}
+.footer-section {
+  justify-items: center;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+.footer-sections {
+  max-width: 1200px;
+  display: flex;
+  gap: 200px;
+}
+.footer-logo {
+  color: white;
+}
+.logo-description {
+  font-size: 1.75rem;
+}
+.logo-container {
+  max-width: 400px;
+}
+.logo-description {
+  position: relative;
+  top: -95px;
+  left: 67px;
+}
+.logo-paragraph {
+  position: relative;
+  top: -100px;
+  color: white;
+  font-size: 1.1rem;
+}
+.footer-menu-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: white;
+}
+#list-menu {
+  margin-left: -36px;
+}
+#list-menu li {
+  list-style: none;
+  color: white;
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+}
+.footer-images {
+  margin-top: 32px;
+}
+.footer-image {
+  margin-right: 8px;
+}
+
+/* responsive  website */
+
+@media screen and (max-width: 576px) {
+  .logo-title,
+  .menu-items,
+  .menu-btn,
+  .menu-link-1,
+  .menu-link-2,
+  .menu-link-3,
+  .menu-link-4 {
+    display: none;
+  }
+  .navbar {
+    width: 100%;
+    border-bottom: 2px solid #f0aa00;
+  }
+  #three-line {
+    display: inline;
+    background-color: white;
+    border: none;
+    font-size: 2.5rem;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-image {
+    margin-bottom: 10px;
+  }
+  .kids-image {
+    width: 370px;
+  }
+  .banner-title,
+  .banner-description {
+    width: auto;
+  }
+  .banner-empowering {
+    text-align: center;
+    margin-top: -60px;
+    padding: 0px 17px;
+  }
+  .curriculum-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  .curriculum-container {
+    width: auto;
+    flex-direction: column;
+  }
+  .btn-next-previous,
+  .story-one {
+    display: none;
+  }
+  /* .story-one{
+    overflow: hidden;
+  }
+  .story-two {
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(1fr);
+    gap: 2px;
+  } */
+  .footer-sections {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 10px;
+  }
+  .footer-menu {
+    margin-top: -90px;
+  }
+}
