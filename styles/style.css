@@ -19,7 +19,7 @@
 }
 
 /* nav style */
-marquee{
+marquee {
   font-size: 1.25rem;
   font-weight: 500;
   background-color: #64c8ff;
@@ -467,22 +467,15 @@ marquee{
     flex-direction: column;
   }
   .btn-next-previous,
-  .story-one {
+  .story-one,
+  .our-stories {
     display: none;
   }
-  /* .story-one{
-    overflow: hidden;
-  }
-  .story-two {
-    width: 100%;
-    height: 100%;
-    grid-template-columns: repeat(1fr);
-    gap: 2px;
-  } */
   .footer-sections {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     row-gap: 10px;
+    padding-left: 15px;
   }
   .footer-menu {
     margin-top: -90px;
