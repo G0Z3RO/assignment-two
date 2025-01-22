@@ -19,12 +19,17 @@
 }
 
 /* nav style */
-
+marquee{
+  font-size: 1.25rem;
+  font-weight: 500;
+  background-color: #64c8ff;
+  color: #ffffff;
+}
 .navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 #three-line,
 #hidden {
